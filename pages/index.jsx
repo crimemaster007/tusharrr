@@ -17,8 +17,8 @@ export default function Home() {
           <Navbar />
           <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              <div class="bg-purple-300">
-                <img  class="object-cover  mx-auto" src="./tushar-cover-photo.png"/>
+              <div className="bg-purple-300">
+                <Image className="object-cover  mx-auto" src="./tushar-cover-photo.png"/>
               </div>
               <br></br>
               <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
