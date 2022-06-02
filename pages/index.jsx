@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,10 +18,10 @@ export default function Home() {
           <Navbar />
           <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              {/* <div className="md:container md:mx-auto">
+              <div className="md:container md:mx-auto">
                 <Image height="320" width="1100" alt="tushar-display-image" src="/tushar-cover-photo.png" />
               </div>
-             */}
+            
              
               <br></br>
               <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
